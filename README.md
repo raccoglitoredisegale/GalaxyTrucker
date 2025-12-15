@@ -1,6 +1,6 @@
 # Galaxy Trucker - Software Engineering Project
 
-Digital implementation of the board game **Galaxy Trucker** (Vlaada Chvátil).
+Digital implementation of the board game **Galaxy Trucker**.
 Final project for the "Ingegneria del Software" course (2024-2025).
 
 ## 👥 Group Members
@@ -13,8 +13,6 @@ Final project for the "Ingegneria del Software" course (2024-2025).
 | **Raul Olla** |
 
 ## 🚀 Implemented Functionalities
-
-This project targets the **22/30 grade requirements**, implementing **Complete Rules**, **TUI**, and **1 Advanced Functionality**.
 
 | Functionality | Status | Description |
 | :--- | :---: | :--- |
