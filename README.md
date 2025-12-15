@@ -1,15 +1,53 @@
-## Group Compotent
- - Paolo Mornato
- - Morini Matteo
- - Leonardo Miotto
- - Raul Olla
+# Galaxy Trucker - Software Engineering Project
 
+Digital implementation of the board game **Galaxy Trucker** (Vlaada Chvátil).
+Final project for the "Ingegneria del Software" course (2024-2025).
 
-## Functionalities
- - Complete Rules
- - Only TUI
- - Multiple lobbies functionalities
+## 👥 Group Members
 
+| Student |
+| :--- |
+| **Paolo Mornato** |
+| **Matteo Morini** |
+| **Leonardo Miotto** |
+| **Raul Olla** |
+
+## 🚀 Implemented Functionalities
+
+This project targets the **22/30 grade requirements**, implementing **Complete Rules**, **TUI**, and **1 Advanced Functionality**.
+
+| Functionality | Status | Description |
+| :--- | :---: | :--- |
+| **Rules** | 🟢 | **Complete Rules** (Standard flight, Level II) |
+| **Interface** | 🟢 | **TUI** (Text User Interface) |
+| **Network** | 🟢 | **Socket** Implementation |
+| **Advanced Feature** | 🟢 | **Multiple Lobbies** (Server handles concurrent matches) |
+| **Advanced Feature** | 🟢 | Persistence |
+| **Advanced Feature** | 🔴 | Disconnection Resilience |
+| **GUI** | 🔴 | Graphical User Interface |
+
+### 📋 Key Features
+- **MVC Pattern:** The architecture strictly follows the Model-View-Controller pattern.
+- **Multiple Lobbies:** The server supports multiple simultaneous games.
+- **Test Coverage:** **78%** line coverage on the Model.
+
+## 🛠️ How to Run
+
+### Prerequisites
+- **Java SE 17** (or higher).
+- **Maven** (only if building from source).
+
+---
+
+### Option A: Run from JAR (Deliverables)
+
+Use this method if you are running the pre-compiled files located in the `/deliverables/final/jar` folder.
+
+**1. Launching the Server**
+Open your terminal in the JAR directory and run:
+
+```bash
+java -jar Server.jar
 ## 📝 How to Use
 
 This section contains all instructions about how to run this project.
